@@ -1,0 +1,44 @@
+body {
+    background-image: url(images/school-building-near-road-illustration_1262-16602.webp);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    margin: 0 auto;
+    background-color: #000828;
+    width: 250px;
+    height: 400px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.wr-b {
+    margin: 0 auto;
+    width: 50px;
+    height: 220px;
+    background-color: #000000;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    color: #0c0c0c;
+    font-size: 35px;
+}
+#red:hover {
+    background-color: red;
+}
+#yellow:hover {
+    background-color: yellow;
+}
+#green:hover {
+    background-color: green;
+}
+
